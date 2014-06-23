@@ -2,19 +2,55 @@
 	margin:0 auto 0 auto;
 	width:100%;
 	border-radius:15px;
-	position:absolute;
+	float:left;
 }
+
 .navbar{
 	margin-bottom: 0px;
 }
+
 body{
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .75);
 }
-.tellingtouch{
-	font-color:rgba(0, 0, 0, .5);
-   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-	font-size: 3.75em;
+
+.logo_wrapper{
+	text-decoration: none;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.logo_wrapper, div a:visited{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 2.5em;
 	font-family: 'Great Vibes', cursive;
-	width: 25%;
-	position: absolute;
+	width: 15%;
+	float: left;
+   color:white;
+   margin-right:20px;
+}
+
+div a:hover{
+	text-decoration:none;
+	
+}
+
+.articles{
+	
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding:60px;
+	margin:200px auto;
+	font-size: 1.3em;
+}
+
+.article_heading{
+	margin-top: 75px;
+}
+
+.site-footer{
+	text-align:center;
+	margin-top:-17px;
+	background-color:rgba(0, 0, 0, .90);
+	color: #505E7D;
+
 }
