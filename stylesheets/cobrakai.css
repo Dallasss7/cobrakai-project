@@ -8,6 +8,10 @@
 .navbar{
 	margin-bottom: 0px;
 }
+.social-logo{
+	text-align: right;
+	margin:-25px -45px 25px 0;
+}
 
 a{
 	text-decoration: none;
