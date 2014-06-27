@@ -1,15 +1,17 @@
 .header-img{
 	margin:0 auto 50px auto;
 	width:100%;
-	border-radius:15px;
+	
 	float:left;
 }
 
 .navbar{
 	margin-bottom: 0px;
 }
+
 .social-logo{
 	text-align: center;
+
 }
 
 body{
@@ -43,7 +45,7 @@ div a:hover{
 	margin: 0 auto;
 	color:white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	padding:75px;
+	padding:80px;
 	font-size: 1.3em;
 
 }
@@ -53,14 +55,17 @@ div a:hover{
 }
 
 .massage-image{
-	margin: 0  auto;
+	margin: 15px  auto;
 	max-width: 500px;
 	max-height: 700px;
+	border-radius:20px;
 }
+
 .massage-image2 {
-	margin: 0 auto;
-	max-width:545px ;
-	max-height:350px ;
+	margin: 15px auto;
+	max-width:545px;
+	max-height:350px;
+	border-radius:20px;	
 }
 
 .site-footer{
