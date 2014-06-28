@@ -70,8 +70,18 @@ div a:hover{
 
 .site-footer{
 	text-align:center;
-	margin-top:-17px;
+	margin: 25px;
 	background-color:rgba(0, 0, 0, .90);
 	color: #505E7D;
 
+}
+
+.google-map {
+	display: inline-block;
+text-align: center;
+}
+
+h2 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
