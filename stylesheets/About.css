@@ -1,12 +1,59 @@
 .img-responsive{
+	margin:0 0 0 0;
 	width: 100%;
 	height: 420px;
-	float: center;
+	float: left;
+	border-radius: 15px;
 }
-.article
-{
-background-color:rgb(46,102,32);
-color: white;
+
+.Julie{
+	border-radius: 25px;
 }
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.social-logo{
+	text-align: center;
+
+}
+
+.body{
+	background-color: white;
+	text-align: center;
+	color: dark grey;
+	margin:0;
+}
+
+.ul
+{text-align: center;
+}
+
+.logo_wrapper{
+	text-decoration: none;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.logo_wrapper, div a:visited{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 2.5em;
+	font-family: 'Great Vibes', cursive;
+	width: 15%;
+	float: left;
+   color:white;
+   margin-right:20px;
+}
+
+div a:hover{
+	text-decoration:none;
+	
+}
+
+.site-footer{
+	text-align:center;
+	background-color:rgba(0, 0, 0, .90);
+	color: #505E7D;
 
 }
