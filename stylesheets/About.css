@@ -1,19 +1,6 @@
-.img-responsive{
-	margin:0;
-	width: 100%;
-	height: 30%;
-	
-}
-.article{
-	margin: 0 auto;
-	color:white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	padding:80px;
-	font-size: 1.3em;
-}
-
-.Julie{
-	border-radius: 25px;
+.header-img{
+	margin:0 auto 50px auto;
+	width:100%;
 }
 
 .navbar{
@@ -26,21 +13,24 @@
 }
 
 body{
-	background-color:rgba(0, 0, 0, .75);
+	background-color: rgba(0, 0, 0, .75);
 	text-align: center;
+}
+.body{
 	color:white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+.Julie{
+	border-radius: 25px;
+}
 .pershist{
-	margin: 20px 200px;
-	font-size: 1.3em;
+	margin: .5em 5em;
 }
 
 ul{
 	margin-bottom: 35px;
 	text-align: center;
 	list-style: none;
-	font-size: 1.3em;
 }
 
 .logo_wrapper{
@@ -64,8 +54,38 @@ div a:hover{
 	
 }
 
+.articles{
+	display: inline-block;
+	margin: 0 auto;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding:80px;
+	font-size: 1.3em;
+
+}
+
+.article_heading{
+	margin-top: 25px;
+}
+
+.massage-image{
+	margin: 15px  auto;
+	max-width: 500px;
+	max-height: 700px;
+	border-radius:20px;
+}
+
+.massage-image2 {
+	margin: 15px auto;
+	max-width:545px;
+	max-height:350px;
+	border-radius:20px;	
+}
+
 .site-footer{
 	text-align:center;
+	margin-top:-17px;
 	background-color:rgba(0, 0, 0, .90);
 	color: #505E7D;
+
 }
